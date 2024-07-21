@@ -1,0 +1,345 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+.starfield {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place behind the container */
+    background-color: #000;
+    overflow: hidden;
+}
+
+@keyframes glitter {
+    0% { opacity: 0.5; }
+    50% { opacity: 1; }
+    100% { opacity: 0.5; }
+}
+
+.star {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    animation: glitter 2s infinite;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #2D4A9D;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+
+
+#floating-score, #feedback {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2em;
+    opacity: 0;
+}
+
+.fade-float {
+    animation: fade-float 2s forwards;
+}
+
+@keyframes fade-float {
+    0% {
+        opacity: 1;
+        transform: translateY(0) translateX(-50%);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-50px) translateX(-50%);
+    }
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+table.generated-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table.generated-table th,
+table.generated-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table.generated-table th {
+    background-color: #2563EB;
+    color: white;
+}
+
+table.generated-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table.generated-table tr:hover {
+    background-color: #ddd;
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+#timer {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+#timer-line {
+    width: 100%;
+    height: 100%;
+    background-color: #7FFF00;
+    transition: width 1s linear, background-color 1s linear;
+}
+
+.girl-mode {
+    background-color: #FF69B4; /* Hot pink background */
+    color: #fff; /* White text */
+}
+
+.girl-mode .container {
+    background-color: #FF1493; /* Darker hot pink for container */
+}
+
+.girl-mode #score {
+    background-color: #FFC0CB; /* Light pink for score */
+}
+
+.girl-mode table.generated-table th {
+    background-color: #FFC0CB; /* Light pink for table headers */
+}
+
+.girl-mode .option-button {
+    background-color: #FFC0CB; /* Light pink for buttons */
+}
+
+.girl-mode .option-button:hover {
+    background-color: #FF69B4; /* Hot pink on hover */
+}
+
+.girl-mode #timer-line {
+    background-color: #FF69B4; /* Hot pink for timer progress */
+}
+
+
+/* Existing styles above remain unchanged */
+/* Existing styles above remain unchanged */
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center; /* Center the buttons horizontally */
+}
+
+.option-button {
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.5em; /* Adjust font size for icons */
+    cursor: pointer;
+    border-radius: 5px;
+    width: 50px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-button:hover {
+    background-color: #3B82F6;
+}
+
+#score {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #2563EB;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5em; /* Increase font size for score */
+}
+
+#timer {
+    width: 100%;
+    height: 5px;
+    background-color: #ddd;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#timer-line {
+    width: 100%;
+    height: 100%;
+    background-color: #7FFF00;
+    transition: width 1s linear;
+}
+
+/* Chocolate Mode Specific Styles */
+.chocolate-mode {
+    background-color: #D2691E; /* Chocolate background */
+    color: #fff; /* White text */
+}
+
+.chocolate-mode .container {
+    background-color: #8B4513; /* Darker chocolate for container */
+}
+
+.chocolate-mode #score {
+    background-color: #A0522D; /* Lighter brown for score */
+}
+
+.chocolate-mode table.generated-table th {
+    background-color: #A0522D; /* Lighter brown for table headers */
+}
+
+.chocolate-mode .option-button {
+    background-color: #A0522D; /* Lighter brown for buttons */
+}
+
+.chocolate-mode .option-button:hover {
+    background-color: #D2691E; /* Chocolate color on hover */
+}
+
+.chocolate-mode #timer-line {
+    background-color: #D2691E; /* Chocolate color for timer progress */
+}
+
+.chocolate-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5; /* Semi-transparent */
+    width: 50px; /* Smaller width */
+    height: auto; /* Auto height to maintain aspect ratio */
+}
+
+/* radial timer */
+
+/* Radial Timer Styling */
+.radial-timer {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.radial-timer svg {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+
+.radial-timer .bg {
+    fill: none;
+    stroke: #ddd;
+    stroke-width: 5;
+}
+
+.radial-timer .progress {
+    fill: none;
+    stroke: #7FFF00;
+    stroke-width: 5;
+    stroke-dasharray: 176;
+    stroke-dashoffset: 176;  /* Start fully offset */
+    transition: stroke-dashoffset 1s linear;
+}
+
+.radial-timer .number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+    color: #2563EB;
+}
+
+@keyframes vibrate {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+    20%, 60% {
+        transform: translate(-2px, -2px);
+    }
+    40%, 80% {
+        transform: translate(2px, 2px);
+    }
+}
+
+/* Option Button Styling */
+.option-button {
+    display: inline-block;
+    width: 100px; /* Adjust as necessary */
+    padding: 10px;
+    margin: 5px;
+    background-color: #2563EB;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option-button:hover {
+    background-color: #1E40AF;
+}
+
+.options-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.options-grid .option {
+    flex: 1 1 30%; /* Adjust as necessary */
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    background-color: #2563EB;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.options-grid .option:hover {
+    background-color: #1E40AF;
+}

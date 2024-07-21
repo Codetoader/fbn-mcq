@@ -1,0 +1,176 @@
+{
+"questions": [
+{
+"type": "table",
+"question": "Refer to the table below and answer the following question:\nWhat is the approximate cost in ink cartridges per page printed on the\nClear Print 1?",
+"tableData": {
+"headers": ["FUNCTION", "Recommended Retail Price per Unit", "Discounted Retail Price per Unit", "Maintenance Cost per Year", "Ink Cartridge", "Pages Printed per Cartridge"],
+"rows": [
+["Black Print", "N995", "N775", "N75", "N19.95", "750"],
+["Clear Print 1", "N1,895", "N975", "N75", "N17.95", "900"],
+["Clear Print 2", "N1,395", "N1,115", "N95", "N25.00", "1,000"],
+["Paper Print", "N1,595", "N1,275", "N95", "N17.95", "950"],
+["Deluxe Print", "N795", "N595", "N95", "N21.95", "800"]
+]
+},
+"options": ["2.0k", "3.5k", "4.0k", "2.5k", "3.0k"],
+"answer": "2.0k"
+},
+{
+"type": "text",
+"question": "What is the capital of France?",
+"options": ["Berlin", "Madrid", "Paris", "Lisbon"],
+"answer": "Paris"
+},
+{
+"type": "text",
+"question": "What is 2 + 2?",
+"options": ["3", "4", "5", "6"],
+"answer": "4"
+},
+{
+"type": "long",
+"question": "Read the passage below and answer the question: The benefits of a healthy diet cannot be overstated. Eating nutritious foods boosts immunity, improves mental health, and increases energy levels, among other advantages. However, achieving a balanced diet can be challenging in today's fast-paced world. People often resort to fast food and processed snacks because they are convenient and require little preparation time. Nevertheless, making a conscious effort to eat healthier foods can significantly improve one's quality of life. What are the primary benefits mentioned in the passage?",
+"options": ["Boosts immunity", "Improves mental health", "Increases energy levels", "All of the above"],
+"answer": "All of the above"
+},
+{
+"type": "numerical",
+"question": "What is the sum of all integers from 1 to 100?",
+"options": ["4950", "5050", "5150", "5250"],
+"answer": "5050"
+},
+{
+"type": "numerical",
+"question": "What is the missing number in this series?\n36, 34, 30, 28, 24, __",
+"options": ["20", "22", "26", "28"],
+"answer": "22"
+},
+{
+"type": "verbal",
+"question": "Select the word that is most nearly opposite in meaning to the word in capital letters\nINVIGORATE",
+"options": ["Debilitate", "Rejuvenate", "Exhilarate", "Stimulate"],
+"answer": "Debilitate"
+},
+{
+"type": "verbal",
+"question": "In the below question, you are given two words. Choose one letter that can be moved from the word on the left to the word on the right making two new words. You cannot rearrange any letters, but the letter that you move can go anywhere in the second word.\nGLORY HEMS",
+"options": ["G", "L", "O", "R", "Y"],
+"answer": "R"
+},
+{
+"type": "verbal",
+"question": "In the below question, find the one letter that will complete the word in front of the brackets or begin the word after the brackets. The same letter must fit into both sets of brackets.\nSHOW (__ )ORSCA( __ )",
+"options": ["A", "E", "I", "O", "U"],
+"answer": "E"
+},
+{
+"type": "numerical",
+"question": "A store reported total sales of $385 million for February of this year. If the total sales for the store in the same month last year was $320 million, approximately what was the percent increase in sales?",
+"options": ["15%", "20%", "25%", "30%"],
+"answer": "20%"
+},
+{
+"type": "verbal",
+"question": "Select the word that is nearest in meaning to the words underlined\nFlorid means most nearly to",
+"options": ["Elegant", "Verbose", "Simple", "Clear"],
+"answer": "Verbose"
+},
+{
+"type": "verbal",
+"question": "Select the answer that produces the most effective sentence. Your answer should make the sentence clear, exact, and free of grammatical error. It should also minimize awkwardness, ambiguity, and redundancy.\nAlthough various eighteenth and nineteenth century American poets had professed an interest in Native American poetry and had attempted to simulate Native American forms in their own works, until almost 1900 scholars and critics did not commonly study traditional Native American poetry in native languages.",
+"options": ["Although various eighteenth and nineteenth century American poets had professed an interest in Native American poetry and had attempted to simulate Native American forms in their own works, it was not until almost 1900 that scholars and critics commonly studied traditional Native American poetry in native languages.", "Various eighteenth and nineteenth century American poets had professed an interest in Native American poetry and had attempted to simulate Native American forms in their own works, but it was not until almost 1900 that scholars and critics commonly studied traditional Native American poetry in native languages.", "Although various eighteenth and nineteenth century American poets had professed an interest in Native American poetry and had attempted to simulate Native American forms in their own works, not until almost 1900 did scholars and critics commonly study traditional Native American poetry in native languages.", "Various eighteenth and nineteenth century American poets had professed an interest in Native American poetry and had attempted to simulate Native American forms in their own works, but scholars and critics did not commonly study traditional Native American poetry in native languages until almost 1900."],
+"answer": "Although various eighteenth and nineteenth century American poets had professed an interest in Native American poetry and had attempted to simulate Native American forms in their own works, it was not until almost 1900 that scholars and critics commonly studied traditional Native American poetry in native languages."
+},
+{
+"type": "verbal",
+"question": "In the below question, you are given two words. Choose one letter that can be moved from the word on the left to the word on the right making two new words. You cannot rearrange any letters, but the letter that you move can go anywhere in the second word.\nGIORY HEMS",
+"options": ["G", "L", "O", "R", "Y"],
+"answer": "R"
+},
+{
+"type": "numerical",
+"question": "Select the right answers to the following:\nA project scheduled to be carried out over a single fiscal year has a budget of $12,600 divided into 12 equal monthly allocations. At the end of the fourth month of that fiscal year, the total amount actually spent on the project was $4,580. By how much was the project over its budget?",
+"options": ["$1,060", "$1,160", "$1,260", "$1,360"],
+"answer": "$1,060"
+},
+{
+"type": "analytical",
+"question": "From a group of six boys M, N, O, P, Q, R and five girls G, H, I, J, K a team of six is to be selected to attend a diplomat’s retirement dinner. Selection conforms to the following conditions:\n* Either Joshua or Kunle must be selected, but Joshua and Kunle cannot both be selected.\n* Either Nonso or Paul must be selected but Nonso and Paul cannot both be selected.\n* Nonso cannot be selected unless Lakin is selected.\n* Queen cannot be selected unless Kunle is selected.\nIf Paul is not selected to attend the retirement dinner, then exactly how many different groups of four are there each of which would be an acceptable selection?",
+"options": ["2", "3", "4", "5"],
+"answer": "3"
+},
+{
+"type": "numerical",
+"question": "What is the approximate ratio between the number of Managed Outlets with daily sales of N100,000 - N199,999 to that of Managed Outlets with daily sales of between N50,000 - N99,999?",
+"options": ["1:2", "2:1", "1:3", "3:1"],
+"answer": "2:1"
+},
+{
+"type": "analytical",
+"question": "From a group of six boys M, N, O, P, Q, R and five girls G, H, I, J, K a team of six is to be selected to attend a diplomat’s retirement dinner. Selection conforms to the following conditions:\n* Either Joshua or Kunle must be selected, but Joshua and Kunle cannot both be selected.\n* Either Nonso or Paul must be selected but Nonso and Paul cannot both be selected.\n* Nonso cannot be selected unless Lakin is selected.\n* Queen cannot be selected unless Kunle is selected.\nIf both K and P are members of the team and three boys in all are included in the team, the members of the team other than K and P are?",
+"options": ["M and J", "N and H", "Q and R", "O and L"],
+"answer": "N and H"
+},
+{
+"type": "numerical",
+"question": "What is the amount of rice exported from Nigeria?\nNigeria’s export to Gambia is 80,000 tonnes and this is 10% of the total rice exports.\nNigeria’s total export tonnage of rice is 12.5% of the total of 5.9 million tonnes.",
+"options": ["737,500 tonnes", "800,000 tonnes", "885,000 tonnes", "937,500 tonnes"],
+"answer": "737,500 tonnes"
+},
+{
+"type": "analytical",
+"question": "Find the statement that must be true according to the given information.\nThe Pacific yew is an evergreen tree that grows in the Pacific Northwest. The Pacific yew has a poisonous fruit. Recently, taxol, a substance found in the bark of the Pacific yew, was discovered to be a promising new anticancer drug.",
+"options": ["Taxol is produced from the bark of the Pacific yew.", "The Pacific yew is the only source of taxol.", "Taxol is a poisonous substance found in the bark of the Pacific yew.", "The Pacific yew is a rare tree that grows only in the Pacific Northwest."],
+"answer": "Taxol is produced from the bark of the Pacific yew."
+},
+{
+"type": "analytical",
+"question": "From a group of six boys M, N, O, P, Q, R and five girls G, H, I, J, K a team of six is to be selected to attend a diplomat’s retirement dinner. Selection conforms to the following conditions:\n* Either Joshua or Kunle must be selected, but Joshua and Kunle cannot both be selected.\n* Either Nonso or Paul must be selected but Nonso and Paul cannot both be selected.\n* Nonso cannot be selected unless Lakin is selected.\n* Queen cannot be selected unless Kunle is selected.\nIf the team has three girls including J and K, the members of the team other than J and K are?",
+"options": ["M, N, P, Q", "M, O, P, Q", "N, O, P, Q", "M, N, O, R"],
+"answer": "M, N, P, Q"
+},
+{
+"type": "numerical",
+"question": "If the price of Chinese Cuisine increases by 55%, and the original commission percentage halves, how much commission will a salesperson gain from selling one copy of this book?",
+"options": ["N1,200", "N1,500", "N1,800", "N2,100"],
+"answer": "N1,500"
+},
+{
+"type": "analytical",
+"question": "The passage provides information in support of which of the following assertions?\nIn terrestrial environments, gravity places special demands on the cardiovascular system of animals. Gravitational pressure can cause blood to pool in the lower regions of the body, making it difficult to circulate blood to critical organs such as the brain. Terrestrial snakes, in particular, exhibit adaptations that aid in circulating blood against the force of gravity. The problem confronting terrestrial snakes is best illustrated by what happens to sea snakes when removed from their supportive medium. Because the vertical pressure gradients within the blood vessels are counteracted by similar pressure gradients in the surrounding water, the distribution of blood throughout the body of sea snakes remains about the same regardless of their orientation in space, provided they remain in the ocean. When removed from the water and tilted at various angles with the head up, however, blood pressure at their midpoint drops significantly, and at brain level falls to zero. That many terrestrial snakes in similar spatial orientations do not experience this kind of circulatory failure suggests that certain adaptations enable them to regulate blood pressure more effectively in those orientations. One such adaptation is the posterior location of the terrestrial snake’s heart, which helps to ensure adequate blood flow to the brain regardless of the snake’s orientation in space. The heart of sea snakes, in contrast, is located in the middle of the body, a position that minimizes the work required to circulate blood throughout the body. Sea snakes, which dwell in trees and spend much of their time in an upright position, have hearts located closer to their heads than do terrestrial snakes. The location of the heart in arboreal snakes can be as little as 15 percent of overall body length. Such a location requires that blood circulated to the tail of the snake travel a greater distance back to the heart, a problem solved by another adaptation. When climbing, arboreal snakes often pause momentarily to wiggle their bodies, causing waves of muscle contraction that advance from the lower torso to the head. By compressing the veins and forcing blood forward, these contractions apparently improve the flow of venous blood returning to the heart.",
+"options": ["The disadvantage of an adaptation to a particular feature of an environment often outweighs the advantages of that adaptation.", "The advantages of a particular adaptation are often outweighed by the disadvantages of that adaptation.", "The location of a particular organ in an animal is often determined by the animal’s environment.", "Adaptations that are beneficial in one environment are often detrimental in another environment."],
+"answer": "The location of a particular organ in an animal is often determined by the animal’s environment."
+},
+{
+"type": "problem_solving",
+"question": "In the past month, one of your employees has shown a major decline in performance. Although the decline has been ongoing for a couple of months, it has been particularly steep during the past two weeks. In addition, she has started coming in late and seems very frustrated with her work. Her behavior is influencing the atmosphere in the office as she is a popular employee and has been working for the organization for the past two years.\nWhat would you do and why? Choose the BEST option.",
+"options": ["Schedule a meeting with her to discuss her performance and offer support. This is a good opportunity to understand her perspective and see if there are any issues that can be addressed. You can also offer her additional training or resources if needed.", "Ignore the situation for now and see if it improves on its own. It’s possible that she is going through a temporary rough patch and will eventually get back on track.", "Talk to her colleagues to see if they have any insights into her behavior. This will help you gather more information and understand the situation better.", "Give her a warning about her performance and let her know that she needs to improve. This will send a clear message that her behavior is unacceptable."],
+"answer": "Schedule a meeting with her to discuss her performance and offer support. This is a good opportunity to understand her perspective and see if there are any issues that can be addressed. You can also offer her additional training or resources if needed."
+},
+{
+"type": "general_knowledge",
+"question": "The agency responsible for regulating the capital market in Nigeria is:",
+"options": ["Central Bank of Nigeria", "Nigerian Stock Exchange", "Capital Market Consultative Forum", "Capital Market Association of Nigeria", "Securities and Exchange Commission"],
+"answer": "Securities and Exchange Commission"
+},
+{
+"type": "general_knowledge",
+"question": "The international financial institution focused on the private sector by financing and mobilising capital in international financial markets is:",
+"options": ["The International Bank for Reconstruction and Development", "The International Finance Corporation", "The International Development Association", "The World Bank Group"],
+"answer": "The International Finance Corporation"
+},
+{
+"type": "problem_solving",
+"question": "You have been assigned to the Technology Academy Programme of FirstBank and you are on a rotational placement programme spending 6 months in each of 4 different departments in order to learn the ropes before being assessed for a permanent management position. You have completed your placements in Procurement and General Services departments. You are half-way through your 6 months in the Human Resources (HR) department. The HR team is based in the Lagos Office. Your final placement will be with the Finance department and is due to commence upon completion of your 6 months in HR.\nYou have had one mail from a senior manager in the Finance department, Choke, who will be your line manager in 6 months’ time. She is keen that you are aware of the team that you will be joining and that you are up to speed on the projects that the team will be working on. She has also requested that you prepare a presentation on the key projects that the Finance department will be working on for the next financial year. You are due to start in Finance in January.  What would you do and why? Choose the BEST option.",
+"options": ["Respond to Choke’s email and ask for more details about the presentation. You can also ask if there are any specific projects that she would like you to focus on.", "Ignore Choke’s email and focus on completing your current placement in HR. You can deal with the presentation when you start in Finance.", "Contact Choke and ask if you can meet with her to discuss the presentation in more detail. This will give you a chance to ask questions and get a better understanding of what she expects.", "Start working on the presentation immediately. It is important to make a good impression on your new team and show that you are proactive."],
+"answer": "Contact Choke and ask if you can meet with her to discuss the presentation in more detail. This will give you a chance to ask questions and get a better understanding of what she expects."
+},
+{
+"type": "problem_solving",
+"question": "You are attending a meeting with your team to make a decision on a new recruitment services provider. You have been asked to allocate a new 12-month contract to the vendor(s) who you believe will provide the best value for money. Today you are attending a brief meeting with other members of the review team to make a decision based on your findings. You will be meeting with a colleague from Finance, a senior manager from the General Services department and the HR business partner for Procurement.\nYou have completed a thorough review of the recruitment market and have arrived at three equally suitable options, each with a different price range. You are aware of the following:\n* The Finance colleague favours supplier A as they are the least expensive.\n* The senior manager favours supplier B as he has a good relationship with their lead consultant.\n* The HR business partner favours supplier C as they are considered to be the ‘gold standard’ in the industry in terms of best practice.\nYou need to come to a conclusion by the end of this one hour meeting.\nReview the following responses A to D and indicate which you believe to be the ‘most effective’ response to the situation.",
+"options": ["At the outset, suggest that you use a set of criteria to analyze the three options, that you agree on these criteria to begin with and that you divide the hour into three sections: agreement of criteria, discussion of options against criteria and final decision.", "Set out your opinion clearly and confidently at the beginning of the meeting, listing pros and cons for each option and then stating which consultant you feel is the best. Then ask your colleagues to share their views.", "Explain that you have the expertise and understanding required to recruit the specialist engineering and research staff required. You know that your finance colleague favours supplier A as they are the least expensive, the senior manager favours supplier B as he has a good relationship with their lead consultant and the HR business partner favours supplier C as they are considered to be the ‘gold standard’ in the industry in terms of best practice. You need to come to a conclusion by the end of this one hour meeting.", "Explain that you have completed a thorough review of the recruitment market and have arrived at three equally suitable options, each with a different price range. You are aware that the Finance colleague favours supplier A as they are the least expensive, the senior manager favours supplier B as he has a good relationship with their lead consultant and the HR business partner favours supplier C as they are considered to be the ‘gold standard’ in the industry in terms of best practice. You need to come to a conclusion by the end of this one hour meeting."],
+"answer": "At the outset, suggest that you use a set of criteria to analyze the three options, that you agree on these criteria to begin with and that you divide the hour into three sections: agreement of criteria, discussion of options against criteria and final decision."
+}
+]
+}
