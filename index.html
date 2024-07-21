@@ -3,26 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabe Site</title>
+    <title>FBN First Bank Nigeria MCQ Quiz</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        Gabe Site
-    </header>
-    <main>
-        <a href="#" class="link cybersecurity">cybersecurity</a>
-        <a href="#" class="link job-seekers">job seekers</a>
-    </main>
-    <section class="bottom-section">
-        <div class="circle large-circle">
-            <div class="circle-text">Find Out MORE</div>
-        </div>
-        <div class="circle small-circle"></div>
-        <div class="ad-placement">
-            <a href="#">ad placement</a>
-        </div>
-    </section>
+    <div id="quiz-container">
+        <h1>FBN First Bank Nigeria Multiple Choice Questions</h1>
+        <div id="timer">Time: 00:00</div>
+        <div id="question"></div>
+        <div id="options"></div>
+        <button id="mode-toggle" onclick="toggleMode()">Switch to Dark Mode</button>
+    </div>
+    <div id="popup">
+        <div id="popup-message"></div>
+        <div id="explanation"></div>
+        <button id="next-button" onclick="nextQuestion()">Next</button>
+    </div>
+    <div id="overlay"></div>
     <script src="script.js"></script>
 </body>
 </html>
