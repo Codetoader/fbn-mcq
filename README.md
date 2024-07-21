@@ -1,2 +1,3 @@
-# gabe-site
-the cyssey, job seeker, cybersecurity deal
+# FBN-MCQ
+
+First Bank Nigeria Service Executive Conversion Exams
